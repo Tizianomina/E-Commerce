@@ -3,6 +3,8 @@ import { productsData } from "../data/data";
 
 export const FiltersBrands = () => {
 
+  console.log("Hola")
+
   const {applyFilter} = useFilters()
 
   const uniqueBrands = productsData.filter(
